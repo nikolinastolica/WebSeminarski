@@ -1,0 +1,180 @@
+.index_body{
+	background-image: url('images/boston-pizza-wall-index.jpg');
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+	font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+.index_body table{
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	margin-top: 15%;
+	font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+.register_body table{
+	margin-top: 8% !important;
+}
+
+.index_input{
+	height: 40px;
+	width: 40%;
+	text-align: center;
+	color: lightblue;
+	border: 1px solid lightblue;
+	background: transparent;
+	font-family: "Comic Sans MS", cursive, sans-serif
+}
+.index_input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: lightblue;
+  font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+.index_input::-moz-placeholder { /* Firefox 19+ */
+  color: lightblue;
+  font-family: "Comic Sans MS", cursive, sans-serif
+}
+.index_input:-ms-input-placeholder { /* IE 10+ */
+  color: lightblue;
+  font-family: "Comic Sans MS", cursive, sans-serif
+}
+.index_input:-moz-placeholder { /* Firefox 18- */
+  color: lightblue;
+  font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+.button_reset{
+	background-color: #ff6666 !important;
+	color: red !important;
+	border: 1px solid #ff6666 !important;	
+}
+.index_radiobutton{
+	border: 0px solid black !important;
+}
+
+.button_reset:hover{
+	background-color: red !important;
+	color: white !important;
+	border: 1px solid red !important;	
+}
+.index_login{
+	height: 40px;
+	width: 30%;
+	background-color: lightblue;
+	color: blue;
+	border: 1px solid lightblue;
+	font-weight: bold;
+	font-family: "Comic Sans MS", cursive, sans-serif
+}
+.index_login:hover{
+	color: white;
+	background-color: #0066ff;
+	border: 1px solid #0066ff;
+}
+
+.index_registracija{
+	position: fixed;
+	right: 10;
+	top: 10;
+	color: white;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-decoration: none;
+}
+.index_registracija:hover{
+	color: #0066ff;
+	font-weight: bold;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-decoration: uderline;
+}
+.index_poruka{
+	width: 100%;
+	color: red;
+	text-align: center;
+	font-weight: bold;
+}
+footer{
+    background-color: black;
+	color: white;
+	text-align: center;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+	display: inline-block;
+}
+.left-side{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 50px;
+	height: 100px;
+	text-align: justify;
+	display: inline-block;
+}
+#left-side{
+	margin-top: 100px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 50px;
+	height: 100px;
+	text-align: justify;
+	display: inline-block;
+}
+#right-side h2{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 30px;
+}
+.float-left{
+	float: left;
+	width: 30% !important;
+}
+
+.float-right{
+	float: right;
+	width: 40% !important;
+	text-align: right;
+	margin-right: 10%;
+	margin-top: 100px;
+}
+
+.float-right h2{
+	margin-bottom: 10px !important;
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}
+.float-right table{
+	text-align: right;
+}
+#galerija{
+	width: 100%; 
+	height: 100%;
+}
+.mySlides{
+	width: 100%; 
+	height: 100%;
+}
+#info_title, #porudzbine_title{
+	cursor: pointer; 
+}
+@font-face {
+	src: url('fonts/monotype-corsiva.ttf');
+	font-family: monotype;
+}
+#ajaxMessage{
+	width: 100%;
+	text-align: center;
+	font-family: "monotype";
+	font-size: 22px;
+	font-weight: bold;
+	color: darkgreen;
+}
+.indexLogo{
+	position: absolute;
+    top: 80px;
+    left: 80;
+    width: 200px;
+    height: 100px;
+}

@@ -1,0 +1,44 @@
+
+	<aside id="oNama">
+
+				<h2>Kako pravimo pizzu?</h2>
+				<p>Naše testo za pizzu pravi se svakog dana od svežeg kvasca, finog brašna, vode,
+				 malo biljnog ulja, šecera i soli, pre nego što se ukrasi mnoštvom dobrih sastojaka.</p>
+				 <p>   Naša pizza se prvo peče u peći za pizzu sa sosom od paradajza i mocarelom i italijanskim tvrdim sirom. </p>
+				 <p id="preporuka">
+        <dl> Preporučujemo <br>
+        	<dt> Pizza BRAVO</dt> <br>
+					<dd>Maslinovo ulje, svež paradajz, sir, njeguški pršut, praška šunka, šampinjoni, dimljene masline, pavlaka, origano, susam. </dd>
+					<dt>Pizza ECCELLENTE </dt>
+					<dd> Pelat, sir, šampinjoni, njeguški pršut, dimljene masline, crno vino, parmezan, rukola, origano, susam. </dd>
+					<dt>	Pizza SERBIANA </dt>
+					<dd>Pelat, sir, pančeta, šampinjoni, pavlaka, kulen, ljute papričice, origano, susam. </dd>
+				</dl>
+</p>
+	</aside>
+
+	<section id="attractions">
+		<div class="wrap-attractions">
+			<h2>Attractions</h2>
+
+			<div class="wrap-flex">
+				<div class="att">
+					<img src="images/ara.jpg" alt="ara">
+					<h3>Giant ara</h3>
+					<p>100 Kg bird</p>
+				</div>
+
+				<div class="att">
+					<img src="images/vanga.jpg" alt="ara">
+					<h3>Vanga fish</h3>
+					<p>Future predicting fish</p>
+				</div>
+
+				<div class="att">
+					<img src="images/flamingo.jpg" alt="ara">
+					<h3>Sunset flamingo</h3>
+					<p>Phoenix-like animal</p>
+				</div>
+			</div>
+		</div>
+	</section>

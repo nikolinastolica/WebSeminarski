@@ -1,0 +1,37 @@
+<?php
+	if(isset($_POST["submit"]))
+	{
+		$username = $_POST["username"];
+		$password = $_POST["password"];
+		
+		include "db_int.php";
+		connect();
+		
+		$upit = "SELECT * FROM korisnici WHERE username='$username' AND password='$password' ";
+		$rezultat = mysqli_query($link, $upit) 
+			or die("Greska pri izvrsavanju upita: " . mysqli_error($link));
+	
+		if($rezultat->num_rows > 0)
+		{
+			$red = mysqli_fetch_row($rezultat);
+			
+			$_SESSION["id_usera"] = $red[0];
+			$_SESSION["admin"] = $red[1];
+			$_SESSION["ime"] = $red[2];
+			$_SESSION["prezime"] = $red[3];
+			$_SESSION["adresa"] = $red[4];
+			$_SESSION["mesto"] = $red[5];
+			$_SESSION["username"] = $red[6];
+			$_SESSION["password"] = $red[7];
+			$_SESSION["jmbg"] = $red[8];
+			$_SESSION["mail"] = $red[9];
+			$_SESSION["datum_registracije"] = $red[10];
+			
+			header('Location: moj_profil.php');
+		}
+		else
+		{
+			echo "<p class='index_poruka'>Pogresan username ili password</p>";
+		}
+	}
+?>

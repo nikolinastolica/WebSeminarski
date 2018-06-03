@@ -1,0 +1,3 @@
+SELECT m.name, t.name, m.materials, m.price
+from meni m right JOIN types t on t.type_id = m.type_it
+order by t.type_id
